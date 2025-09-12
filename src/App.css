@@ -10,6 +10,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+@theme {
+    --shadow-activiy: 0px 0px 0px 4px #0000001A;
+    --shadow-blog: 0px 0px 20px 2px #00000033;
+
+
+}
+
 .after-img::after {
     background-image: url(assets/webp/grey-sheet.webp);
 }

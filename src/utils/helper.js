@@ -1,5 +1,9 @@
 import { href } from "react-router-dom"
 import { Compass, Email, Facebook, Instagram, Phone, Telegram, Twitter, Whatup } from "./icons"
+import img1activity from '../assets/webp/ouractivity-img1.webp'
+import img2activity from '../assets/webp/ouractivity-img2.webp'
+import img1blog from '../assets/webp/blog-img1.webp'
+import img2blog from '../assets/webp/blog-img2.webp'
 
 export const Navlinks = [
     { label: 'home', path: '/' },
@@ -94,4 +98,22 @@ export const Footer_Links = [
             },
         ],
     },
+]
+
+export const Our_Activity = [
+    {
+        img: img1activity,
+        title: 'Art & Creativity',
+        description: 'Art is the expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.',
+    },
+    {
+        img: img2activity,
+        title: 'Sport & Entertainment',
+        description: 'Art is the expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.',
+    },
+]
+
+export const Blog = [
+    img1blog,
+    img2blog,
 ]
