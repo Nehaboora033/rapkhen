@@ -1,8 +1,20 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import OurActivities from '../components/OurActivities'
+import LatestBlog from '../components/LatestBlog'
+import MeetOurTeam from '../components/MeetOurTeam'
+import OurGallery from '../components/OurGallery'
+import EmailSection from '../components/common/EmailSection'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Hero />
+      <OurActivities />
+      <LatestBlog />
+      <MeetOurTeam />
+      <OurGallery />
+    </>
   )
 }
 
