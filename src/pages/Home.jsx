@@ -4,7 +4,6 @@ import OurActivities from '../components/OurActivities'
 import LatestBlog from '../components/LatestBlog'
 import MeetOurTeam from '../components/MeetOurTeam'
 import OurGallery from '../components/OurGallery'
-import EmailSection from '../components/common/EmailSection'
 
 const Home = () => {
   return (

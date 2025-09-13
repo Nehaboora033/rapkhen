@@ -6,7 +6,6 @@ import { Input_SendIcon } from '../../utils/icons'
 
 const EmailSection = () => {
   return (
-    <div>
       <div className={`bg-cover bg-center bg-no-repeat z-[1] relative  py-[75px] after:content-[''] after:inset-0 after:absolute after:z-[0] after-img after:bg-cover after:bg-center after:bg-no-repeat`} style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className='max-w-[924px] mx-auto sm:px-3 px-2 z-[2] relative'>
           <Subheading className={'text-center text-white pb-[60px] !font-medium'}>
@@ -28,7 +27,6 @@ const EmailSection = () => {
           </Input>
         </div>
       </div>
-    </div>
   )
 }
 

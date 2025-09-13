@@ -1,9 +1,10 @@
 import React from 'react'
 import Container from './common/Container'
 import Subheading from './common/Subheading'
-import { Circle, Eye, Message, Morearticle_Arrow } from '../utils/icons'
+import { Button_Arrow, Circle, Eye, Message } from '../utils/icons'
 import Description from './common/Description'
 import { Blog } from '../utils/helper'
+import { Link } from 'react-router-dom'
 
 
 const LatestBlog = () => {
@@ -14,7 +15,7 @@ const LatestBlog = () => {
           <div className='flex '>
             <Subheading className={'relative z-[2]'}>
               Latest Blog
-              <Circle className={'absolute top-[-10px] left-[-36px] z-[-1]'} />
+              <Circle className={'absolute top-[-10px] left-[-40px] z-[-1]'} />
             </Subheading>
           </div>
         </div>
@@ -47,12 +48,12 @@ const LatestBlog = () => {
           ))}
         </div>
       </div>
-      <div className='flex justify-end'>
-        <button className='bg-[#FF9534] rounded-[5px] py-[20px] px-[30px] flex items-center transition-colors duration-150 ease-initial cursor-pointer gap-[20px] text-white text-[20px] font-normal hover:outline outline-[#FF9534] mt-[50px] hover:text-[#FF9534] hover:bg-white '>
+      <Link to={'news'} className='flex justify-end'>
+        <button className='bg-[#FF9534] rounded-[5px] sm:py-[20px]  sm:px-[30px] p-[10px] flex items-center transition-colors duration-150 ease-initial cursor-pointer gap-[20px] text-white text-[20px] font-normal hover:outline outline-[#FF9534]   sm:mt-[50px] mt-[40px] hover:text-[#FF9534] hover:bg-white '>
           More Articles
-          <Morearticle_Arrow className={'hover:stroke-[#FF9534]'} />
+          <Button_Arrow className={'hover:stroke-[#FF9534]'} />
         </button>
-      </div>
+      </Link>
     </Container>
   )
 }

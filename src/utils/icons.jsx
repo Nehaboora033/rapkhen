@@ -128,11 +128,20 @@ export const Eye = () => (
 )
 
 
-export const Morearticle_Arrow = ({ className }) => (
+export const Button_Arrow = ({ className }) => (
     <svg
         className={className}
         width="18" height="7" viewBox="0 0 18 7" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 3.7658L17 3.76268M17 3.76268L13.5 0.999756M17 3.76268L13.5 6.00024" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+
+)
+
+export const Swiper_Arrow = ({ className }) => (
+    <svg
+        className={className}
+        width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 18L12 9.15949L2 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 
 )
